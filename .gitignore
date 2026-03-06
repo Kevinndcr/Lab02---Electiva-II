@@ -1,5 +1,6 @@
 # Dataset (archivos grandes, no subir al repo)
 data/
+!data/README.txt
 *.csv
 
 # Entorno virtual Python
