@@ -58,6 +58,14 @@ LabII/
 
 ---
 
+## Documentación
+
+| Documento | Descripción |
+|---|---|
+| [📋 Guía paso a paso](GUIA_PASO_A_PASO.md) | Instalación, configuración, carga de datos y consultas detalladas |
+
+---
+
 ## Puertos y credenciales
 
 | Servicio | Puerto | Credencial |
