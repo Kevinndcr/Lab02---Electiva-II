@@ -1,0 +1,30 @@
+# Dataset (archivos grandes, no subir al repo)
+data/
+*.csv
+
+# Entorno virtual Python
+venv/
+.venv/
+env/
+
+# Caché Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credenciales Kaggle
+.kaggle/
+
+# Variables de entorno
+.env
+
+# Documentos compilados (subir solo el PDF final)
+docs/*.docx
+
+# OS
+.DS_Store
+Thumbs.db

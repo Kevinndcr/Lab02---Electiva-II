@@ -1,0 +1,24 @@
+# Bases de datos
+happybase==1.2.0
+pymongo==4.6.1
+redis==5.0.1
+
+# Datos
+pandas==2.2.0
+numpy==1.26.3
+tqdm==4.66.1
+
+# Visualización
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Jupyter
+jupyterlab==4.0.11
+notebook==7.0.7
+ipykernel==6.29.0
+
+# Descarga del dataset
+kaggle==1.6.5
+
+# Utilidades
+python-dotenv==1.0.0

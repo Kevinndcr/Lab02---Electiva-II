@@ -1,0 +1,56 @@
+Laboratorio #02: Observaciones: 
+• En el curso dispuesto en el Campus Virtual, existe un segmento denominado “Entorno de 
+Trabajo”, se sugiere que lo revisen y sigan con detenimiento el material contenido en este 
+apartado, con el objetivo de que aclarar dudas con respecto al uso de las herramientas para 
+trabajar adecuadamente con el repositorio de sub-versionamiento de GitHub.  
+• Lea  cuidadosamente  cada  uno  de  los  problemas  planteados  y  en  caso  de  duda,  puede  
+utilizar el chat dispuesto para tal fin, que se encuentra al inicio del curso en la plataforma 
+Moodle del Campus Virtual.  
+• Este  trabajo  es  en  parejas,  por  lo  que  deben  determinar  quien  trabaja  en  que  sistema  
+operativo.   
+Planteo del problema: Instalación de los motores de base de datos, utilizando Docker Container:   
+ 
+• Investigar  cómo  montar  un  servidor  de  HBase  usando  un  container  de  Docker  y  usarlo  
+desde Python con alguna librería disponible.  
+• Investigar cómo montar un servidor de MongoDB usando un container de Docker y usarlo 
+desde Python con alguna librería disponible.  
+• Investigar cómo montar un servidor de Redis usando un container de Docker y usarlo desde 
+Python con alguna librería disponible.  
+• Preferiblemente genere un documento de Docker Compose para la instalación de toda la 
+arquitectura necesaria.  
+• Para que su respuesta sea lo más objetiva posible, desarrollé el ejemplo en Windows como 
+en Linux, este último preferiblemente en modo consola, sin interfaces gráfica instalada.   
+Carga de datos: 
+Crear  un  script  de  Python  que  cargue  el  dataset  eCommerce  Purchase  History  from 
+Electronics  Store,  el  cual  cuenta  con  2  millones  de  registros,    en  los  3  motores  de  datos 
+instalados en el paso anterior, siguiendo las reglas y esquema de cada uno de ellos.  Recuerde  optimizar  los  procesos  para  que  el  tiempo  invertido  en  la  migración  sea  lo  mas  
+corto posible.   Enlace de descarga:  eCommerce purchase history from electronics store   
+Consultas nativas: 
+Al  igual  como  usted  realiza  consultas  de  tipo  SQL,  por  ejemplo,  en  PostgreSQL  o  MySQL,  
+utilizando herramientas como pgAdmin o Workbench, solo por mencionar algunos, 
+investigue como desarrollar consultas nativas sobre los motores de datos solicitados para 
+este trabajo, de forma que pueda indicar: 
+• Herramienta por utilizar para conectarse y aplicar la consulta 
+• ¿Cómo se escribe la consulta? 
+• ¿Cómo se visualiza el resultado obtenido?   
+Consultas desde Python: 
+Crear  un  script  (uno  por  cada  base  de  datos)  en  Python,  que  permita  desarrollar  las 
+siguientes consultas en las bases de datos, (debe investigar cómo hacer las consultas y 
+cada consulta debe estar registrada en la documentación):  
+• ¿Cuál es la categoría más vendida?  
+• ¿Cuál marca (brand) generó más ingresos brutos?  
+• ¿Qué mes tuvo más ventas? (use formato UTC)  
+ Experimente y analice los tiempos de respuesta de cada consulta en cada base de datos.   
+Observaciones generales: 
+  Desarrolle  un  documento  .pdf  aparte (portada, desarrollo, conclusiones, bibliografía),  donde 
+documente:  
+• Cada paso de cómo crear y manejar cada una de las bases de datos.  
+• Documente  el  tipo  de  motores  de  datos  que  se  le  solicitaron  en  este  trabajo  y  en  que  
+consisten los mismos.  
+• Documente los resultados obtenidos durante la experimentación.  
+• Desarrolle sus conclusiones acerca del resultado obtenido y del proyecto en general.  
+• Separe  los  scripts  de  Python  para la carga de datos en formato .py y las consultas en 
+cuaderno de Jupyter.  
+• Para las consultas en Python genere tablas de salida acompañadas de algún tipo de ploteo.  
+• Deben entregar un archivo .zip en la sección de Evaluaciones con todo el código fuente y la 
+documentación requeridos.
